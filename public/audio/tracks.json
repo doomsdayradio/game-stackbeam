@@ -1,0 +1,26 @@
+{
+  "easy": [
+    { "title": "Easy Song 1", "src": "/audio/easy-song1.mp3" },
+    { "title": "Easy Song 2", "src": "/audio/easy-song2.mp3" },
+    { "title": "Easy Song 3", "src": "/audio/easy-song3.mp3" },
+    { "title": "Easy Song 4", "src": "/audio/easy-song4.mp3" },
+    { "title": "Easy Song 5", "src": "/audio/easy-song5.mp3" },
+    { "title": "Easy Song 6", "src": "/audio/easy-song6.mp3" }
+  ],
+  "normal": [
+    { "title": "Normal Song 1", "src": "/audio/normal-song1.mp3" },
+    { "title": "Normal Song 2", "src": "/audio/normal-song2.mp3" },
+    { "title": "Normal Song 3", "src": "/audio/normal-song3.mp3" },
+    { "title": "Normal Song 4", "src": "/audio/normal-song4.mp3" },
+    { "title": "Normal Song 5", "src": "/audio/normal-song5.mp3" },
+    { "title": "Normal Song 6", "src": "/audio/normal-song6.mp3" }
+  ],
+  "hard": [
+    { "title": "Hard Song 1", "src": "/audio/hard-song1.mp3" },
+    { "title": "Hard Song 2", "src": "/audio/hard-song2.mp3" },
+    { "title": "Hard Song 3", "src": "/audio/hard-song3.mp3" },
+    { "title": "Hard Song 4", "src": "/audio/hard-song4.mp3" },
+    { "title": "Hard Song 5", "src": "/audio/hard-song5.mp3" },
+    { "title": "Hard Song 6", "src": "/audio/hard-song6.mp3" }
+  ]
+}
