@@ -1,11 +1,11 @@
-# Stack Beam
+# game-stackbeam
 
-This repository contains the Stack Beam game source migrated from the monorepo.
+Migrated from the legacy monorepo.
 
-## Source origin
-- tools/stack-beam/
-- docs/games/stack-beam/
+## Source
+- tools/stack-beam
+- docs/games/stack-beam
 
-## Status
-- Source imported from the legacy monorepo.
-- Build and deploy workflow to be moved to repo-local CI.
+## Notes
+- This repo is a product/service repo in the Doomsday Radio multi-repo setup.
+- Source of truth remains the original repo until migration is validated.
