@@ -1,11 +1,29 @@
-# game-stackbeam
+# Stack Beam
 
-Migrated from the legacy monorepo.
+Browserbasiertes Puzzlespiel aus dem Doomsday-Radio-Universum. Die Anwendung
+lädt ihre Rätsel aus `puzzles/puzzle-pool.json` und wird als vorgebautes
+statisches Frontend ausgeliefert.
 
-## Source
-- tools/stack-beam
-- docs/games/stack-beam
+## Lokal starten
 
-## Notes
-- This repo is a product/service repo in the Doomsday Radio multi-repo setup.
-- Source of truth remains the original repo until migration is validated.
+```bash
+python -m http.server 8000
+```
+
+Das Spiel ist anschließend unter <http://localhost:8000> erreichbar. Ein
+lokaler Webserver ist erforderlich, damit Browser die Module und Rätseldaten
+mit den richtigen Pfaden laden.
+
+## Inhalte
+
+```text
+index.html                 Einstiegspunkt
+assets/                    gebautes JavaScript und CSS
+audio/                     Audioelemente des Spiels
+puzzles/puzzle-pool.json   Rätselbestand
+favicon.svg                Browser-Icon
+```
+
+`assets/` enthält gebaute Artefakte. Der ursprüngliche Quellstand stammt aus
+`tools/stack-beam` und `docs/games/stack-beam` des früheren Monorepos; eine
+eigenständige Build-Pipeline ist in diesem Repository derzeit nicht enthalten.
